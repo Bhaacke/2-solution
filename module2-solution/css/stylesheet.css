@@ -1,0 +1,108 @@
+<styles>
+ /* base styles */
+
+* {
+ box-sizing: border-box;
+ margin: 0px;
+ padding: 0px;
+}
+body {
+	font-family: Roboto, sans-serif;
+}
+header {
+	border: 1px solid black;
+	margin-bottom: 10px;
+
+}
+p {
+	margin: 10px;
+}
+p.content {
+	padding: 20px;
+	height: 90%;
+	border:2px solid black;
+	width: 90%
+	margin-right: auto;
+	margin-left: auto;
+}
+.main-heading {
+	text-align: center;
+}
+.row {
+	width: 100%;
+}
+.divz {
+	position: relative;
+}
+.inregion {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 1px solid black;
+	font-weight: bold;
+}
+
+/* small devices */ 
+@media (max-width: 767px) {
+	.col-sm-12 {
+		float: left;
+		width: 100%;
+	}
+}
+/* medium devices */ 
+@media (min-width: 768px) and (max-width: 921px) {
+	.col-md-6, .col-md-12 {
+		float: left;
+	}
+	.col-md-6 {
+		width: 50%;
+	}
+	.col-md-12 {
+		width: 100%;
+	}
+}
+/* large devices */
+@media (min-width: 922px) {
+	.col-lg-4 {
+		float: left;
+		width: 33%;
+	}
+
+}
+/* background colours */
+.light-salmon {
+	background-color: #FFA07A;
+}
+.dark-red {
+	background-color: #8B0000;
+}
+.moccasin {
+	background-color: #FFE4B5;
+}
+.silver {
+	background-color: #C0C0C0;
+}
+.light-gray {
+	background-color: #F5B041;
+}
+.slate-blue {
+	background-color: #6A5ACD;
+}
+.medium-blue {
+	background-color: #0000CD;
+}
+.blue {
+	background-color: #191970;
+}
+.lightsteel-blue {
+	background-color: #F9E79F ;
+}
+.green {
+	background-color:#0b1c2c ;
+}
+.light {
+	background-color: #D4AC0D ;
+}
+<styles>
